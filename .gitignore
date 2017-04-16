@@ -5,3 +5,4 @@ bin
 *.graph
 *.tsp
 *.txt
+*.o
