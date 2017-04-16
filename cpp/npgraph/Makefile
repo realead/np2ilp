@@ -1,12 +1,9 @@
 
-CPP = g++
-LD = g++
 
 TARGETDIR =  ../../bin/
 TARGET = $(TARGETDIR)/libNPGraph.so
 ODIR = objects
 
-CFLAGS = -std=c++11 -fPIC -pedantic -Wall -Wextra -march=native
 LFLAGS = -shared
 
 headers = $(wildcard *.h)
