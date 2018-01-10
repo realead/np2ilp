@@ -69,5 +69,5 @@ double minimize_tsp(const TSPGraph &graph){
 
 int main(){
     TSPGraph graph=readTSPGraph(std::cin);
-    std::cout<<"minimum costs: "<<minimize_tsp(graph)<<std::endl;
+    std::cout<<minimize_tsp(graph)<<std::endl;
 }

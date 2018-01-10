@@ -8,7 +8,7 @@
 
 int main(){
     TSPGraph graph=readTSPGraph(std::cin);
-    std::cout<<"minimum costs: "<<held_karp_sets<std::unordered_map>(graph)<<std::endl;
+    std::cout<<held_karp_sets<std::unordered_map>(graph)<<std::endl;
 }
 
 
